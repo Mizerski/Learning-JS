@@ -2,6 +2,11 @@
 
 This repository serves as documentation of my progress in the web development and back-end course. Below are the topics I am learning:
 
+# Reference material
+- https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/16388032#overview
+- https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  
 ## JavaScript
 - Basic JavaScript
 - Functional JavaScript
