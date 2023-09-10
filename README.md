@@ -46,3 +46,5 @@ This repository serves as documentation of my progress in the web development an
 - Using SQL with sequelize (MySQL and MariaDB)
 - NestJS + Strapi + PostgreSQL (with CSR, SSR, SSG, and ISR) - (Bonus Extra)
 - HTML5 and CSS3 (Bonus Extra)
+
+- teste
