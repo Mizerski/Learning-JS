@@ -25,7 +25,7 @@ rl.question('Escolha uma cor para o botao: ', (input)=>{
     if(buttonColors.includes(userChoise)){
         console.log(`Voce escolheu a cor: ${userChoise}`);
     }else{
-        console.log(`Voce nao escolheu uma cor valida, cor padrao aplicada: ${buttonColors[0]}`);
+        console.log(`Voce nao escolheu uma cor valida, cor padrao aplicada, foi essa: ${buttonColors[0]}`);
     }
     rl.close();
 })
