@@ -1,14 +1,7 @@
-//Objetivo: Aprender a usar o if e else
-//O if e else são usados para fazer comparações e tomar decisões, se a condição for verdadeira ele executa o bloco de
-// código dentro do if, se for falsa ele executa o bloco de código dentro do else.
-
-
-// const country = 'Brazil'
-// if(country === 'Brazil'){
-//     console.log('You are Brazilian')
-// }else{
-//     console.log('You are not Brazilian')
-// }
+// Objetivo: Aprender a usar o if e else
+// O if e else são usados para fazer comparações e tomar decisões.
+// Se a condição for verdadeira, ele executa o bloco de código dentro do if.
+// Se for falsa, ele executa o bloco de código dentro do else.
 
 // Importação do módulo readline para interação com o console
 const readline = require('readline');

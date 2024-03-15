@@ -1,6 +1,6 @@
 // Objective: how to use arrays in JavaScript
 
-const names = ['Max', 'Manuel',' Anna'];
+const names = ['Max', 'Manuel', ' Anna'];
 const ages = [30, 29, 31, 22];
 
 names.push('Julia, John'); // Adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array.

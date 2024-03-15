@@ -1,9 +1,8 @@
-function ePaisagem(l , a) {
+function ePaisagem(l, a) {
 
-    if(l >= a)
-    {
-        return true
-    }
+  if (l >= a) {
+    return true
+  }
   return false
 }
 
