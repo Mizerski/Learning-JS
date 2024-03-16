@@ -35,3 +35,5 @@ function timeNow(date) {
 // Chama a função timeNow sem passar nenhum parâmetro, utilizando a data e hora atuais
 const hour = timeNow();
 console.log(hour); // Exibe a hora atual no console
+
+
