@@ -1,37 +1,46 @@
-// Objetivo: Aprender a usar o if e else
-// O if e else são usados para fazer comparações e tomar decisões.
-// Se a condição for verdadeira, ele executa o bloco de código dentro do if.
-// Se for falsa, ele executa o bloco de código dentro do else.
+/*
+  Condicionais no JavaScript
 
-// Importação do módulo readline para interação com o console
-const readline = require('readline');
+    Em JavaScript, existem várias condicionais, mas as principais são:
 
-// Criação de uma interface readline para entrada e saída no console
-const quest = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+    - if -> usado para executar um bloco de código se uma condição for verdadeira
+    - else -> usado para executar um bloco de código se a condição do if for falsa
+    - else if -> usado para executar um bloco de código se a condição do if for falsa, mas outra condição for verdadeira
 
-// Lista de estados brasileiros
-const states = [
-    'Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal',
-    'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso do Sul', 'Mato Grosso', 'Minas Gerais',
-    'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte',
-    'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'
-];
+    Estrutura de uma condicional:
 
-// Pergunta ao usuário para digitar o nome de um estado brasileiro
-quest.question('Digite o nome de um estado brasileiro: ', (input) => {
-    // Remove espaços em branco extras da entrada do usuário
-    const country = input.trim();
-
-    // Verifica se o estado inserido está na lista de estados brasileiros
-    if (states.includes(country)) {
-        console.log('Você é brasileiro');
-    } else {
-        console.log('Você não é brasileiro');
+    if (condicao) {
+        // bloco de codigo
+    } else if (condicao) { //So caso a primeira condicao seja falsa
+        // bloco de codigo
+    }else {
+        // bloco de codigo
     }
 
-    // Fecha a interface readline após a conclusão
-    quest.close();
-});
+
+    Notas:
+    - A condicao é uma expressão que retorna verdadeiro ou falso
+    - O bloco de código é um conjunto de instruções que são executadas se a condição for verdadeira
+    - O bloco de código é delimitado por chaves {}
+    - A condicional if é usada para executar um bloco de código se a condição for verdadeira
+    - A condicional else é usada para executar um bloco de código se a condição do if for falsa
+    - A condicional else if é usada para executar um bloco de código se a condição do if for falsa, mas outra condição for verdadeira
+    - O else nao tem condicao, ele é executado caso todas as condicoes anteriores sejam falsas
+*/
+
+// Exemplos de condicionais
+
+let idade = 18
+
+if (idade >= 18) {
+    console.log('Maior de idade')
+}
+
+let sexo = 'F'
+
+if (sexo === 'M') {
+    console.log('Masculino')
+} else {
+    console.log('Feminino')
+}
+

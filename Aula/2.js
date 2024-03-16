@@ -52,15 +52,15 @@ console.log("========= Informações do Livro =========")
 exibirInformacoesLivro(livro)
 
 /* 
-bibliotecaLivros(3)
-const lista = ['livro1', 'livro2', 'livro3'];
-const names = ['Título', 'Autor', 'Ano de Publicação', 'Gênero'];
-names.find((names) => {
-    if (names === 'names') {
-        console.log('Encontrado');
-    }
-})
-console.log(bibliotecaLivros(names));
+    bibliotecaLivros(3)
+        const lista = ['livro1', 'livro2', 'livro3'];
+        const names = ['Título', 'Autor', 'Ano de Publicação', 'Gênero'];
+        names.find((names) => {
+        if (names === 'names') {
+            console.log('Encontrado');
+        }
+    })
+    console.log(bibliotecaLivros(names));
 */
 
 
