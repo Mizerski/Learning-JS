@@ -1,50 +1,46 @@
-# My Learning Repository
+# Aprendendo Javascript
 
-This repository serves as documentation of my progress in the web development and back-end course. Below are the topics I am learning:
+## Qual o intuito desse repositório?
 
-# Reference material
-- https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/16388032#overview
-- https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  
-## JavaScript
-- Basic JavaScript
-- Functional JavaScript
-- Object-Oriented JavaScript (ES6+)
+O intuito desse repositório é ensinar Javascript para quem está começando a programar, ou para quem já programa e quer aprender uma nova linguagem.
+Nele você vai encontrar desde o básico até o avançado, com exemplos e explicações. Caso voce nao entenda algo, pode me chamar no discord: ` mizerski_` ou tambem caso queira contribuir pode abrir uma issue ou um pull request.
 
-## TypeScript
-- Introduction to TypeScript
-- Static Typing in TypeScript
+## O que é Javascript?
 
-## Back-end
-- Node.js
-- Express.js
-- MongoDB
-- MySQL/MariaDB
-- Login system with session
-- Login system with JWT
-- Project creation with Node, Express, and EJS
-- Creating a Restful API with Node + Express + Sequelize
-- Server security (SSH and TLS - Https)
+JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. Sempre que uma página da web faz mais do que apenas mostrar informações estáticas para você - ela mostra atualizações em conteúdo, mapas interativos, animações gráficas em 2D/3D, etc. - você pode apostar que o JavaScript provavelmente está envolvido.
 
-## Front-end
-- Webpack
-- Babel
-- React JS with React Hooks
-- Redux with Redux Saga
+## O que você vai aprender aqui?
 
-## Programming Concepts
-- Principles of Object-Oriented Programming
-- S.O.L.I.D Principles
-- Automated testing with Jest
-- Regular Expressions (Bonus)
-- GOF Design Patterns (Bonus)
+- [x] Variáveis
+- [x] Tipos de dados
+- [x] Operadores
+- [x] Estruturas de controle
+- [x] Funções
+- [x] Arrays
+- [x] Objetos
+- [x] Classes
+- [x] Promises
+- [x] Async/Await
+- [ ] Fetch API
+- [ ] LocalStorage
+- [ ] TypeScript
+- [ ] Node.js
+- [ ] Express
+- [ ] Testes com Jest
+- [ ] JWT
 
-## Other Technologies
-- Setting up a Linux server for Deployment (Ubuntu Server)
-- Using noSQL with mongoose (MongoDB)
-- Using SQL with sequelize (MySQL and MariaDB)
-- NestJS + Strapi + PostgreSQL (with CSR, SSR, SSG, and ISR) - (Bonus Extra)
-- HTML5 and CSS3 (Bonus Extra)
+## Como usar esse repositório?
 
-- teste
+Você pode clonar esse repositório e ir seguindo os passos, ou pode ir direto para a pasta que deseja aprender e ir seguindo os passos.
+
+## Importante !
+
+Esse repositório está em constante atualização, então sempre que possível, dê um `git pull` para se manter atualizado. Estou sempre tentando melhorar o conteúdo e adicionar novas coisas.
+
+## Fontes
+
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [W3Schools](https://www.w3schools.com/js/default.asp)
+- [JavaScript.info](https://javascript.info/)
+- [DevMedia](https://www.devmedia.com.br/javascript/)
+- [Curso Udemy, Luiz Otávio Miranda](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
