@@ -19,7 +19,7 @@ let pessoa = {
     idade: 30,
     set nomeCompleto(valor) {
 
-        /* 
+        /* vb
             Aqui estamos usando o setter para definir o valor do atributo nomeCompleto.
         
             o Split é um metodo que divide uma string em um array de substrings e retorna o novo array.

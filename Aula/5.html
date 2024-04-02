@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<body>
+    <style>
+        :root {
+            font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
+
+            color-scheme: light dark;
+            color: rgba(255, 255, 255, 0.87);
+            background-color: #242424;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            min-width: 320px;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100px;
+            height: 40px;
+        }
+    </style>
+
+    <div>
+        <button onclick="mudarCores(1)">clique</button>
+    </div>
+    <div>
+        ----------> <text id="corTexto">Cor</text>
+    </div>
+    <script>
+
+        var cores = ["red", "blue", "green", "yellow", "black", "white", "purple", "pink", "orange", "brown"];
+
+        function mudarCores(indice) {
+           var indexAleatorio = Math.floor(Math.random() * cores.length);
+           var selecionarCor = cores[indexAleatorio];
+            document.getElementById("corTexto").style.color = selecionarCor;
+        }
+
+
+    </script>
+</body>
+
+</html>
