@@ -58,3 +58,26 @@ switch (fruta) {
         console.log('Produto não existe')
 }
 
+// Exemplo usando switch para chamar funções
+
+function somarNumeros(a, b) {
+    return a + b
+}
+
+function subtrairNumeros(a, b) {
+    return a - b
+}
+
+let operacao = 1
+
+switch (operacao) {
+    case 1:
+        console.log(somarNumeros(10, 20))
+        break
+    case 2:
+        console.log(subtrairNumeros(10, 20))
+        break
+    default:
+        console.log('Operação inválida')
+}
+

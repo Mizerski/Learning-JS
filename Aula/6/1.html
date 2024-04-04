@@ -1,0 +1,59 @@
+<!--*Exercício 1: Botão com Função Básica de Contador
+•    Crie um botão que exiba o número ‘0’.
+•    Ao clicar no botão, o número exibido deve aumentar em 1 a cada clique.
+
+Exercício 2: Botão com Função de Contador e Lista de Cliques
+•    Além do botão, adicione um parágrafo para exibir todos os cliques registrados.
+•    Cada vez que o botão for clicado, o número exibido deve aumentar em 1 e o clique deve ser registrado na lista exibida.
+
+Exercício 3: Botão com Função de Contador, Lista e Condicional
+•    Adicione uma condição ao exercício anterior: quando o número de cliques atingir 10, exiba um alerta parabenizando o usuário.
+
+Lembre-se de:
+    •    Utilizar a função getElementById para selecionar elementos HTML.
+    •    Manipular o conteúdo dos elementos utilizando innerHTML.
+    •    Registrar os cliques em uma lista utilizando arrays.
+    •    Utilizar estruturas condicionais, como if, para verificar quando o número de cliques atinge 10.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+
+<body>
+    <h1>Contador</h1>
+    <ul id="listaCliques"></ul>
+    <button id="contador">0</button>
+
+    <script>
+        const botao = document.getElementById('contador');
+        const listaCliques = document.getElementById('listaCliques');
+
+        let contador = 0;
+
+        botao.addEventListener('click', function () {
+            contador++
+            botao.textContent = contador;
+
+            // Adicionando um novo clique a lista
+            const novoItemLista = document.createElement('li');
+            novoItemLista.textContent = 'Clique ' + contador;
+            listaCliques.appendChild(novoItemLista);
+
+            // Verifica se o contador chegou a 10
+            if (contador === 10) {
+                alert("Você chegou a 10 cliques!")
+                contador = 0;
+                botao.textContent = contador;
+
+                listaCliques.innerHTML = "";
+            }
+        });
+    </script>
+</body>
+
+</html>

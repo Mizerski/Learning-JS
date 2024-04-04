@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exercicio de formulario</h1>
+
+    <form id="formulario">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email: </label>
+        <input id="email" name="email" required><br><br>
+
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script>
+        const formulario = document.getElementById('formulario');
+        const resultado = document.getElementById('resultado');
+        const validacaoEmail = document.getElementById('validacaoEmail');
+
+        formulario.addEventListener('submit', function (event) {
+            event.preventDefault(); // Evita que o formulario seja enviado
+
+            // Pegando os valores dos inputs
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const mensagem = document.getElementById('mensagem').value;
+
+
+
+            // Enviando os dados para o servidor
+            resultado.innerHTML = `
+                <h2>Dado do formulario</h2>
+                <p><strong>Nome:</strong> ${nome}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Mensagem:</strong> ${mensagem}</p>
+            ` ;
+        })
+
+    </script>
+</body>
+
+</html>
